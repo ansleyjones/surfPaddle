@@ -1,0 +1,387 @@
+header {
+  display: block;
+  background-image: url("../images/rockyBeach.png");
+  background-repeat:no-repeat;
+  font-family: 'Roboto', helvetica;
+  font-weight: 400;
+  width: 100%;
+  min-height: 400px;
+  margin-bottom: 20;
+  padding: 0;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover{
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 85px;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: -10px;
+}
+
+header p {
+  color:black;
+  text-align:center;
+}
+
+.surfBlog{
+  display: inline-block;
+  vertical-align:top;
+  width: 50%;
+  text-align: center;
+}
+
+.surfBlog img{
+  margin-top: 5px;
+}
+
+.surfBlog a{
+  margin-top: 2px;
+}
+
+
+.aboutSearch {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+  text-align: right;
+}
+.aboutSearch li{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.aboutSearch ul{
+  list-style-type: none;
+}
+
+body{
+  font-family: 'Oswald', helvetica;
+
+}
+
+.wrapper {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-top:45px;
+}
+
+.main{
+  display: block;
+  vertical-align: top;
+  float:left;
+  width: 55%;
+  padding-left: 40px;
+  padding-right: 60px;
+}
+
+.main h2{
+  font-size: 60px;
+  margin: 0;
+}
+
+
+.main h3 {
+  color:rgb(20,109,180);
+  font-size: 35px;
+  font-weight: normal;
+  padding-left:20px;
+  border-left: 2px solid grey;
+}
+
+.main p {
+  font-weight: lighter;
+  color: darkgrey;
+  line-height: 27px;
+}
+
+.main span {
+  color: lightgrey;
+  font-weight:normal;
+}
+
+.mainHeadPic {
+
+  text-align:left;
+  display: inline-block;
+  width:55%;
+}
+
+.mainHeadPic span{
+  color: rgb(20,109,180);
+  font-size: 12px;
+}
+
+
+
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  position:relative;
+  text-align: center;
+  width: 30%;
+  margin-left: 40px;
+}
+
+.sidebar p{
+  text-align:left;
+  margin-left:30px;
+  color: grey;
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+.sidebar h3{
+  text-align:left;
+  margin-left:30px;
+  color: rgb(20,109,180);
+}
+
+
+.bear{
+  margin-left: 35%;
+  width:100px;
+  border-radius:100%;
+  background: rgba(20,109,180,1);
+}
+
+.bear2{
+  display:inline-block;
+  margin-right:6px;
+  width:20px;
+  border-radius:100%;
+  background: rgba(20,109,180,1);
+}
+
+.bear img{
+  border-radius: 100%;
+  text-align:center;
+}
+
+.bearInfo p{
+  color: rgb(20,109,180);
+  text-align: center;
+  margin-top:5px;
+  margin-bottom:-2px;
+}
+
+.bearInfo {
+   margin-right:30px;
+   margin-bottom: 10px;
+}
+
+.bearInfo ul{
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+
+.bearInfo li{
+  display: inline-block;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+
+.bearInfo a{
+  text-decoration: none;
+  color: grey;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.sidePic {
+  background: rgba(20,109,180,1);
+  width:300px;
+  text-align:center;
+  margin-left:30px;
+}
+
+.sidePicLink {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.sidePicLink a:visited{
+  color:grey
+}
+
+
+
+.linkBar {
+  display: block;
+  width: 100%;
+  margin-top: 45px;
+  border-top: 1px solid grey;
+}
+
+.linkbar h2{
+  text-align:center;
+  font-size: 70px;
+}
+
+.imgRow{
+  display: inline-block;
+  width:100%;
+  position:relative;
+  margin-bottom:0;
+}
+.imgRow a{
+  color: black;
+  font-size:30px;
+}
+
+.imgRow a:hover{
+  color:white;
+}
+
+
+
+.one {
+  width:25%;
+  position: relative;
+  float:left;
+  clear:both;
+  background: rgba(20,109,180,1);
+
+}
+
+.one span{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+.one img{
+  max-width:100%;
+  max-height:100%;
+}
+
+.two {
+  width:25%;
+  position: relative;
+  float:left;
+  background: rgba(20,109,180,1);
+
+}
+
+.two span{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.two img{
+  max-width:100%;
+  max-height:100%;
+}
+
+.three {
+  width:25%;
+  position: relative;
+  float:left;
+  background: rgba(20,109,180,1);
+
+}
+
+.three span{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.three img{
+  max-width:100%;
+  max-height:100%;
+}
+
+.four {
+  width:25%;
+  position: relative;
+  float:left;
+  background: rgba(20,109,180,1);
+
+ }
+
+.four span{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.four img{
+  max-width:100%;
+  max-height:100%;
+}
+
+.imgRow span:hover{
+  color: white;
+}
+/* IMAGE HOVER EFFECT */
+
+.imgHover{
+  opacity: .5;
+}
+
+.imgHover:hover{
+  opacity: 1.0;
+}
+
+/* END IMAGE HOVER */
+
+
+footer{
+  position:relative;
+  margin: 0 auto;
+  width:100%;
+  min-height:150px;
+  background-color: rgb(8,52,82);
+}
+
+footer p{
+  display: inline-block;
+  position:absolute;
+  left: 50px;
+  top: 40px;
+  color: grey;
+
+}
+
+footer ul{
+  display: inline-block;
+  position:absolute;
+  right: 50px;
+  top: 40px;
+  list-style-type:none;
+}
+
+footer a,li{
+  display: inline-block;
+  text-decoration:none;
+  color:grey;
+  padding-right:10px;
+  padding-left: 10px;
+}
+
+footer li{
+  border-right: 1px solid grey;
+}
+
+footer li:last-child{
+  border-right:none;
+}
+
+footer a:hover{
+  color:white;
+}
