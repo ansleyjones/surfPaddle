@@ -1,0 +1,600 @@
+$hoverColor: rgba(20,109,180,1);
+$headingColor: rgb(8,52,82);
+$headerFont: 'Roboto', helvetica;
+$wrapperFont: 'Oswald', helvetica;
+
+
+body{
+  margin: 0;
+}
+
+.parentHead {
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.backImg {
+  width: 100%;
+  background-color: $hoverColor;
+}
+
+.headText {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 18%;
+  h1 {
+    font-family: $headerFont;
+    color: white;
+    font-size: 85px;
+    margin: 0;
+  }
+  p {
+    font-family: $headerFont;
+    color: black;
+    margin:0;
+    padding:0;
+  }
+}
+
+.surfBlog {
+  display: inline-block;
+  font-family: $headerFont;
+  position:absolute;
+  top: 2%;
+  left: 15%;
+
+  img{
+    width: 38px;
+    height: 38px;
+    margin-top: 5px;
+  }
+
+  a{
+    margin-top: 2px;
+    color:black;
+    text-decoration:none;
+  }
+
+  a:hover{
+    color:white;
+  }
+}
+
+
+
+.aboutSearch {
+  display: inline-block;
+  position:absolute;
+  top:2%;
+  right: 15%;
+  font-family: $headerFont;
+
+  ul{
+    list-style-type: none;
+  }
+  li{
+    display: inline-block;
+  }
+  a{
+    color:black;
+    text-decoration:none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  a:hover{
+    color:white;
+  }
+  img{
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  display: block;
+  font-family: $wrapperFont;
+  margin-top:45px;
+  margin-left:50px;
+}
+
+.main {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 55%;
+  padding-left: 40px;
+  padding-right: 60px;
+  h2 {
+    font-size: 60px;
+    margin: 0;
+    color: $headingColor;
+  }
+  h3 {
+    color: $hoverColor;
+    font-size: 35px;
+    font-weight: normal;
+    padding-left:20px;
+    border-left: 2px solid grey;
+  }
+  p {
+    font-weight: lighter;
+    color: darkgrey;
+    line-height: 27px;
+  }
+  a {
+  color: lightgrey;
+  }
+  a:hover {
+    color:blue;
+  }
+  span {
+    color: lightgrey;
+    font-weight:normal;
+  }
+}
+
+.mainHeadPic {
+  text-align:left;
+  display: inline-block;
+  width:55%;
+  span{
+    color: $hoverColor;
+    font-size: 12px;
+  }
+}
+
+.bear2{
+  display:inline-block;
+  margin-right:6px;
+  width:20px;
+  border-radius:100%;
+  background: $hoverColor;
+}
+
+.date{
+  margin-left: 7px;
+  a{
+    color:grey;
+  }
+}
+
+.mainLinx {
+  display: inline-block;
+  position: relative;
+  ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+  }
+  li{
+    display: inline-block;
+  }
+}
+
+.mainLinx2{
+  display:none;
+}
+
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  position:relative;
+  text-align: center;
+  width: 28%;
+  margin-right: 25px;
+  p{
+    text-align:left;
+    margin-left:30px;
+    color: grey;
+    font-weight: lighter;
+    line-height: 30px;
+  }
+  h3{
+    text-align:left;
+    margin-left:30px;
+    color: $hoverColor;
+  }
+
+}
+
+.bear{
+  margin-left: 35%;
+  width: 100px;
+  border-radius:100%;
+  background: $hoverColor;
+  img{
+    border-radius: 100%;
+    text-align:center;
+  }
+}
+
+.bearInfo {
+  margin-right:30px;
+  margin-bottom: 10px;
+  p{
+    color: $hoverColor;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:-2px;
+  }
+  ul{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  li{
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  a{
+    text-decoration: none;
+    color: grey;
+    font-size: 10px;
+    font-weight: lighter;
+  }
+}
+
+.sidePic {
+  background: $hoverColor;
+  width:300px;
+  text-align:center;
+  margin-left:30px;
+  margin-right:30px;
+}
+
+.sidePicLink {
+  width: 300px;
+  text-align: right;
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom: 50px;
+  a{
+    color: grey;
+  }
+  a:visited {
+    color: darkgrey;
+  }
+}
+
+.linkBar {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-top: 45px;
+  border-top: 1px solid grey;
+  font-family: $wrapperFont;
+  h2{
+    text-align:center;
+    font-size: 70px;
+  }
+}
+
+.imgRow{
+  display: inline-block;
+  width:100%;
+  position:relative;
+  margin-bottom:0;
+  a{
+    color: black;
+    font-size:30px;
+  }
+  a:hover{
+    color:white;
+  }
+  span:hover{
+    color: white;
+  }
+}
+
+.one {
+  width:25%;
+  position: relative;
+  float:left;
+  background: $hoverColor;
+  span{
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+  }
+  img{
+    max-width:100%;
+    max-height:100%;
+  }
+}
+
+
+
+.two {
+  width:25%;
+  position: relative;
+  float:left;
+  background: $hoverColor;
+  span{
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+  }
+  img{
+    max-width:100%;
+    max-height:100%;
+  }
+}
+
+
+.three {
+  width:25%;
+  position: relative;
+  float:left;
+  background: $hoverColor;
+  span{
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+  }
+  img{
+    max-width:100%;
+    max-height:100%;
+  }
+}
+
+
+.four {
+  width:25%;
+  position: relative;
+  float:left;
+  background: $hoverColor;
+  span{
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+  }
+  img{
+    max-width:100%;
+    max-height:100%;
+  }
+}
+
+footer{
+  position:relative;
+  display: block;
+  margin: 0 auto;
+  width:100%;
+  height:150px;
+  font-family: $wrapperFont;
+  background-color: $headingColor;
+  img{
+    position: absolute;
+    top:21%;
+    left: 6%;
+}
+  p{
+    display: inline-block;
+    position:absolute;
+    left: 10%;
+    top: 20%;
+    color: grey;
+  }
+  ul{
+    display: inline-block;
+    position:absolute;
+    right: 10%;
+    top: 20%;
+    list-style-type:none;
+  }
+  a,li{
+    display: inline-block;
+    text-decoration:none;
+    color:grey;
+    padding-right:10px;
+    padding-left: 10px;
+  }
+  li{
+    border-right: 1px solid grey;
+  }
+  li:last-child{
+    border-right:none;
+  }
+  a:hover{
+    color:white;
+  }
+}
+
+
+
+.imgHover {
+  opacity: .5;
+}
+
+.imgHover:hover{
+  opacity: 1.0;
+  transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 320px) {
+  header{
+    width: 100%;
+    .backImg{
+      min-height: 180px;
+    }
+    .imgHover img{
+      min-height: 180px;
+    }
+  }
+  .headText{
+    left: 13%;
+    top: 55%;
+    h1{
+      font-size: 25px;
+    }
+    p{
+      font-size: 12px;
+    }
+
+  }
+  .surfBlog{
+    top: 16%;
+    left: 46%;
+
+    a {
+      display: none;
+    }
+
+  }
+  .aboutSearch{
+    top: 0%;
+    right: 25%;
+    max-height: 14px;
+    ul{
+      margin: 0;
+    }
+    img{
+      width: 10px;
+      height: 10px;
+    }
+    a{
+      font-size: 11px;
+    }
+
+  }
+
+  .wrapper {
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  .main {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    h2 {
+      font-size: 50px;
+      margin: 0;
+      padding-right: 30px;
+      padding-left: 30px;
+      color: $headingColor;
+    }
+    p {
+      padding-top: 20px;
+      padding-right: 30px;
+      padding-left: 30px;
+      margin: 0;
+    }
+    h3{
+      margin-left: 30px;
+    }
+    .name{
+      display: none;
+    }
+
+    .bear2{
+      display: none;
+    }
+    .date{
+      padding-left: 30px;
+    }
+  }
+
+
+  .mainLinx{
+    display: none;
+  }
+  .mainLinx2{
+    display: inline-block;
+    padding-left: 30px;
+    ul{
+      list-style-type: none;
+      display: inline-block;
+      padding: 0;
+    }
+    li{
+      display: inline-block;
+    }
+  }
+
+
+  .sidebar {
+    display: block;
+    position:relative;
+    text-align: center;
+    width: 100%;
+    p{
+      margin-left:30px;
+      line-height: 30px;
+    }
+    h3{
+      text-align:left;
+      margin-left:30px;
+    }
+  }
+
+  .sidePic {
+    margin-left: 10px;
+  }
+  .sidePicLink {
+    margin-left: 10px;
+  }
+
+  .linkBar{
+    h2 {
+      font-size: 45px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  .imgRow{
+    .one{
+      width: 94%;
+      display: block;
+      margin: 10px;
+    }
+    .two{
+      width: 94%;
+      display: block;
+      margin: 10px;
+    }
+    .three{
+      width: 94%;
+      display: block;
+      margin: 10px;
+    }
+    .four{
+      width: 94%;
+      display: block;
+      margin: 10px;
+    }
+  }
+  footer{
+    ul{
+      position:absolute;
+      right: 15%;
+      top: 2%;
+      text-align: center;
+    }
+    img{
+      position: absolute;
+      top: 50%;
+      left: 44%;
+    }
+    p{
+      display: inline-block;
+      position:absolute;
+      left: 2%;
+      top: 65%;
+      text-align: center;
+      color: grey;
+    }
+
+  }
+}
